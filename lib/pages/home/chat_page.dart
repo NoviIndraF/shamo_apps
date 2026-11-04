@@ -31,7 +31,7 @@ class ChatPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'images/img-headset.png',
+              'assets/images/img-headset.png',
               width: 80,
             ),
             SizedBox(

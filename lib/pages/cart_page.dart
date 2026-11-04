@@ -27,7 +27,7 @@ class CartPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'images/img-cart.png',
+                'assets/images/img-cart.png',
                 width: 80,
               ),
               SizedBox(

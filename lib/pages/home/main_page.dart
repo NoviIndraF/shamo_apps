@@ -25,7 +25,7 @@ class _MainPageState extends State<MainPage> {
         },
         backgroundColor: secondaryColor,
         child: Image.asset(
-          'icons/ic-cart.png',
+          'assets/icons/ic-cart.png',
           width: 20,
         ),
       );
@@ -72,7 +72,7 @@ class _MainPageState extends State<MainPage> {
                     icon: Container(
                       margin: EdgeInsets.only(top: 20, bottom: 10),
                       child: Image.asset(
-                        'icons/ic-home.png',
+                        'assets/icons/ic-home.png',
                         width: 21,
                         color: currentIndex == 0
                             ? primaryColor
@@ -84,7 +84,7 @@ class _MainPageState extends State<MainPage> {
                   icon: Container(
                     margin: EdgeInsets.only(top: 20, bottom: 10),
                     child: Image.asset(
-                      'icons/ic-chat.png',
+                      'assets/icons/ic-chat.png',
                       width: 20,
                       color:
                           currentIndex == 1 ? primaryColor : Color(0xff808191),
@@ -96,7 +96,7 @@ class _MainPageState extends State<MainPage> {
                   icon: Container(
                     margin: EdgeInsets.only(top: 20, bottom: 10),
                     child: Image.asset(
-                      'icons/ic-favorite.png',
+                      'assets/icons/ic-favorite.png',
                       width: 20,
                       color:
                           currentIndex == 2 ? primaryColor : Color(0xff808191),
@@ -108,7 +108,7 @@ class _MainPageState extends State<MainPage> {
                   icon: Container(
                     margin: EdgeInsets.only(top: 20, bottom: 10),
                     child: Image.asset(
-                      'icons/ic-profile.png',
+                      'assets/icons/ic-profile.png',
                       width: 18,
                       color:
                           currentIndex == 3 ? primaryColor : Color(0xff808191),

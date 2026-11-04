@@ -32,7 +32,7 @@ class WishlishPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
-                  'images/img-favorite.png',
+                  'assets/images/img-favorite.png',
                   width: 80,
                 ),
                 SizedBox(

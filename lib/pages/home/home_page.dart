@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
               height: 54,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                image: DecorationImage(image: AssetImage('images/img-profile.png')),
+                image: DecorationImage(image: AssetImage('assets/images/img-profile.png')),
               ),
             )
           ],

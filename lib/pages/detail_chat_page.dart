@@ -16,7 +16,7 @@ class DetailChatPage extends StatelessWidget {
             title: Row(
               children: [
                 Image.asset(
-                  'images/img-shop-logo-online.png',
+                  'assets/images/img-shop-logo-online.png',
                   width: 50,
                 ),
                 SizedBox(width: 12,),
@@ -64,7 +64,7 @@ class DetailChatPage extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
               child: Image.asset(
-                'images/img-shoes.png',
+                'assets/images/img-shoes.png',
                 width: 54,
               ),
             ),
@@ -92,7 +92,7 @@ class DetailChatPage extends StatelessWidget {
               ),
             ),
             Image.asset(
-              'buttons/btn-close.png',
+              'assets/buttons/btn-close.png',
               width: 22,
             )
           ],
@@ -173,7 +173,7 @@ class DetailChatPage extends StatelessWidget {
                 ),
                 SizedBox(width: 20,),
                 Image.asset(
-                  'buttons/btn-send.png',
+                  'assets/buttons/btn-send.png',
                   width: 45,
                 )
               ],
