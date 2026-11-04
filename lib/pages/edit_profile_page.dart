@@ -132,7 +132,7 @@ class EditProfilePage extends StatelessWidget {
                 shape: BoxShape.circle,
                 image: DecorationImage(
                   image: AssetImage(
-                    'images/img-profile.png'
+                    'assets/images/img-profile.png'
                   )
                 )
               ),

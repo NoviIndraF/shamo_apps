@@ -25,7 +25,7 @@ class ProductCart extends StatelessWidget {
           children: [
             SizedBox(height: 30,),
             Image.asset(
-              'images/img-shoes.png',
+              'assets/images/img-shoes.png',
               width: 215,
               height: 150,
               fit: BoxFit.cover,

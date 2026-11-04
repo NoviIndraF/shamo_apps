@@ -53,7 +53,7 @@ class SignUpPage extends StatelessWidget {
                 child: Center(
                   child: Row(
                     children: [
-                      Image.asset('icons/ic-profile.png', width: 17,),
+                      Image.asset('assets/icons/ic-profile.png', width: 17,),
                       const SizedBox(width: 16),
                       Expanded(child: TextFormField(
                         style: primaryTextStyle,
@@ -94,7 +94,7 @@ class SignUpPage extends StatelessWidget {
                 child: Center(
                   child: Row(
                     children: [
-                      Image.asset('icons/ic-username.png', width: 17,),
+                      Image.asset('assets/icons/ic-username.png', width: 17,),
                       const SizedBox(width: 16),
                       Expanded(child: TextFormField(
                         style: primaryTextStyle,
@@ -135,7 +135,7 @@ class SignUpPage extends StatelessWidget {
                 child: Center(
                   child: Row(
                     children: [
-                      Image.asset('icons/ic-email.png', width: 17,),
+                      Image.asset('assets/icons/ic-email.png', width: 17,),
                       const SizedBox(width: 16),
                       Expanded(child: TextFormField(
                         style: primaryTextStyle,
@@ -176,7 +176,7 @@ class SignUpPage extends StatelessWidget {
                 child: Center(
                   child: Row(
                     children: [
-                      Image.asset('icons/ic-password.png', width: 17,),
+                      Image.asset('assets/icons/ic-password.png', width: 17,),
                       const SizedBox(width: 16),
                       Expanded(
                           child: TextFormField(

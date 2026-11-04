@@ -37,7 +37,7 @@ class ChatBubble extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
                   child: Image.asset(
-                   'images/img-shoes.png',
+                   'assets/images/img-shoes.png',
                     width:70
                   ),
                 ),

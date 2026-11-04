@@ -12,21 +12,21 @@ class ProductPage extends StatefulWidget {
 class _ProductPageState extends State<ProductPage> {
   int currentIndex = 0;
   List images = [
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
   ];
 
   List familiarShoes = [
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
-    'images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
+    'assets/images/img-shoes.png',
   ];
 
   bool isFavorite = false;
@@ -60,7 +60,7 @@ class _ProductPageState extends State<ProductPage> {
                       ),
                     ),
                     Image.asset(
-                      'icons/ic-success.png',
+                      'assets/icons/ic-success.png',
                       width: 100,
                     ),
                     SizedBox(height: 12,),
@@ -255,8 +255,8 @@ class _ProductPageState extends State<ProductPage> {
                     },
                     child: Image.asset(
                       isFavorite ?
-                      'buttons/btn-favorite-on.png':
-                      'buttons/btn-favorite.png',
+                      'assets/buttons/btn-favorite-on.png':
+                      'assets/buttons/btn-favorite.png',
                       width: 46,
                     ),
                   )
@@ -376,7 +376,7 @@ class _ProductPageState extends State<ProductPage> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                              'buttons/btn-chat.png'
+                              'assets/buttons/btn-chat.png'
                               )
                             )
                           ),

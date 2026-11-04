@@ -18,7 +18,7 @@ class ProfilePage extends StatelessWidget {
               children: [
                 ClipOval(
                   child: Image.asset(
-                    'images/img-profile.png',
+                    'assets/images/img-profile.png',
                     width: 64,
                   ),
                 ),
@@ -48,7 +48,7 @@ class ProfilePage extends StatelessWidget {
                     Navigator.pushNamedAndRemoveUntil(context, '/sign-in', (route) => false);
                   },
                   child: Image.asset(
-                    'buttons/btn-exit.png',
+                    'assets/buttons/btn-exit.png',
                     width: 20,
                   ),
                 ),
